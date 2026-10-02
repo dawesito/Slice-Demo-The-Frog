@@ -10,6 +10,12 @@
 ![Tests](https://img.shields.io/badge/Tests-Unity%20Test%20Framework-blue)
 ![CI](https://img.shields.io/badge/CI-GitHub%20Actions-2088FF?logo=githubactions&logoColor=white)
 
+<br/><br/>
+
+<a href="https://play.unity.com/en/games/28b815df-f834-4061-aa80-67b9b66f3a93/build">
+  <img src="https://img.shields.io/badge/▶%20Play%20the%20demo-Unity%20Play-success?style=for-the-badge&logo=unity" alt="Play the demo"/>
+</a>
+
 </div>
 
 ---
@@ -17,11 +23,15 @@
 ## 🎬 Demo
 
 <p align="center">
-  <a href="docs/media/gameplay.mp4">
+  <a href="https://www.youtube.com/watch?v=OmR1dyh7pFU">
     <img src="docs/media/preview.gif" alt="The Frog gameplay" width="720"/>
   </a>
   <br/>
-  <sub>▶️ <a href="docs/media/gameplay.mp4"><b>Watch the full video</b></a> (1:12 min)</sub>
+  <sub>
+    ▶️ <a href="https://www.youtube.com/watch?v=OmR1dyh7pFU"><b>Watch the gameplay video</b></a>
+    &nbsp;|&nbsp;
+    🎮 <a href="https://play.unity.com/en/games/28b815df-f834-4061-aa80-67b9b66f3a93/build"><b>Play it in your browser</b></a>
+  </sub>
 </p>
 
 ---
@@ -152,11 +162,13 @@ The project uses Unity's component model but avoids giant scripts: **one respons
 
 ## 🚀 Getting started
 
+> 🎮 **Don't want to install Unity?** [Play the demo directly in your browser](https://play.unity.com/en/games/28b815df-f834-4061-aa80-67b9b66f3a93/build).
+
 1. Install **Unity Hub** and editor version **6000.2.6f1**.
 2. Clone the repository:
-   ```bash
-   git clone https://github.com/<username>/<repository>.git
-   ```
+```bash
+   git clone https://github.com/dawesito/Slice-Demo-The-Frog.git
+```
 3. In Unity Hub click **Add → Add project from disk** and select the cloned folder.
 4. Open the scene `Assets/Scenes/Tutorial.unity` and press **Play** ▶️.
 
@@ -181,7 +193,7 @@ Tests live in `Assets/Tests/` and cover, among other things, movement, shooting,
 │   ├── Sprites/           # PNG art
 │   ├── Tests/             # EditMode and PlayMode
 │   └── Tilemap/           # Tilemaps and palettes
-├── docs/media/            # Video, GIF and logo used in this README
+├── docs/media/            # Logo and GIF preview used in this README
 ├── Packages/              # Dependencies
 └── ProjectSettings/       # Unity configuration
 ```
