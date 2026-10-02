@@ -198,6 +198,16 @@ Tests live in `Assets/Tests/` and cover, among other things, movement, shooting,
 └── ProjectSettings/       # Unity configuration
 ```
 
+## 🎨 Art credits
+
+The art of *The Frog* was inspired by the work of these artists:
+
+| Character | Inspired by |
+|---|---|
+| 🐸 **The Frog** (protagonist) | abi.toads |
+| 🗡️🏹 **Basic enemies** (melee and ranged) | axbraun |
+| 🐰 **Final boss** (the rabbit) | ryan pallet |
+
 ## 👥 Authors
 
 - Rubén García Vilches
